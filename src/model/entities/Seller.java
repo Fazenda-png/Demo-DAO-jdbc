@@ -4,7 +4,7 @@ import java.io.Serializable;
 import java.util.Date;
 import java.util.Objects;
 
-public class Seller implements Serializable{
+public class Seller implements Serializable {
 
 	private static final long serialVersionUID = 1L;
 	private Integer ID;
@@ -43,7 +43,7 @@ public class Seller implements Serializable{
 		this.name = name;
 	}
 
-	public String getEmail() {
+	public String getEmail(String string) {
 		return email;
 	}
 
@@ -51,7 +51,7 @@ public class Seller implements Serializable{
 		this.email = email;
 	}
 
-	public Date getBirthDate() {
+	public Date getBirthDate(Date date) {
 		return birthDate;
 	}
 
