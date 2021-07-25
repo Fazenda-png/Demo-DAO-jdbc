@@ -43,7 +43,7 @@ public class Seller implements Serializable {
 		this.name = name;
 	}
 
-	public String getEmail(String string) {
+	public String getEmail() {
 		return email;
 	}
 
@@ -51,7 +51,7 @@ public class Seller implements Serializable {
 		this.email = email;
 	}
 
-	public Date getBirthDate(Date date) {
+	public Date getBirthDate() {
 		return birthDate;
 	}
 
@@ -97,5 +97,6 @@ public class Seller implements Serializable {
 		return "Seller [ID=" + ID + ", name=" + name + ", email=" + email + ", birthDate=" + birthDate + ", BaseSalary="
 				+ BaseSalary + ", department=" + department + "]";
 	}
+
 
 }
